@@ -9,7 +9,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jgwill/dorun.git"
+  },  
+  "bin": {
+    "dorun": "dorun.js"
   },
+
   "keywords": [
     "docker",
     "run",
