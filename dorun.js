@@ -23,7 +23,7 @@ var cdirString = "";
 
 if (p == "linux") {
   cdirString = "$(pwd)/";
-} else if (p == "win32") {
+} else if (p == "win32" || p== "win64") {
   //win
   cdirString = "${pwd}/";
 } else if (p == "cygwin") {
