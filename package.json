@@ -1,0 +1,26 @@
+{
+  "name": "dorun",
+  "version": "0.0.1",
+  "description": "Run a docker container with current dir mounted as /work/input",
+  "main": "dorun.js",
+  "scripts": {
+    "test": "node dorun.js jgwill/ubuntu bash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgwill/dorun.git"
+  },
+  "keywords": [
+    "docker",
+    "run",
+    "mount",
+    "fs",
+    "util"
+  ],
+  "author": "Guillaume Descoteaux-Isabelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgwill/dorun/issues"
+  },
+  "homepage": "https://github.com/jgwill/dorun#readme"
+}
