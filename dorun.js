@@ -5,3 +5,9 @@
 //
 
 
+console.log("LINUX>docker run -it --rm $(pwd)/:/work/input $1");
+console.log("PowerShell>docker run -it --rm ${pwd}/:/work/input $1");
+console.log("WIN>docker run -it --rm %cd%/:/work/input $1");
+
+
+console.log("Nodejs How to detect platform context ? ")

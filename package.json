@@ -1,6 +1,6 @@
 {
   "name": "dorun",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Run a docker container with current dir mounted as /work/input",
   "main": "dorun.js",
   "scripts": {
