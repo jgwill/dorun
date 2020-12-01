@@ -42,10 +42,12 @@ myArgs.forEach(a => {
   cmdAndArgs += a + " ";
 });
 
-//@STCGoal Support X11Forwarding
+//@STCGoal Support X11Forwarding ?
 //@action $(/sbin/ip route|awk '/default/ { print $3 }'):0
 
-console.log(`docker run ${dockerPreArgs} -v ${cdirString}:${mountPath} ${cmdAndArgs }`);
+const dockerCmd = ` run ${dockerPreArgs} -v ${cdirString}:${mountPath} ${cmdAndArgs}`;
 
-// console.log("Nodejs How to detect platform context ? ");
+console.log("docker " +dockerCmd);
+
+
 //@STCGoal ...
