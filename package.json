@@ -1,6 +1,6 @@
 {
   "name": "dorun",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Run a docker container with current dir mounted as /work/input",
   "main": "dorun.js",
   "scripts": {
@@ -9,11 +9,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jgwill/dorun.git"
-  },  
+  },
   "bin": {
     "dorun": "dorun.js"
   },
-
   "keywords": [
     "docker",
     "run",
